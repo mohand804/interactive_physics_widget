@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:interactive_physics_widget/widgets/draggble_ball.dart';
 
-class HomeView extends StatefulWidget {
-  const HomeView({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<HomeView> createState() => _HomeViewState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeViewState extends State<HomeView> {
+class _HomeScreenState extends State<HomeScreen> {
   static final Map<Color, bool> matched = {
     Colors.red: false,
     Colors.blue: false,
